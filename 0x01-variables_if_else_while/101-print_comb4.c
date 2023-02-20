@@ -1,33 +1,37 @@
 #include <stdio.h>
 
 /**
- * main - main function and body
- *  prints all possible different combinations of three digits
- *  Return: 0
+ * main - main function and entry point
+ * prints all possible different combinations of three digits
+ * Return: 0
  */
 
 int main(void)
 {
-	int m;
-	int n;
+	int a;
+	int b;
+	int c;
 
-	for (m = 0 ; m < 10 ; m++)
+	for (a = 0 ; a < 10 ; a++)
 	{
-		for (n = 1 ; n < 10 ; n++)
+		for (b = 1 ; b < 10 ; b++)
 		{
-			if (m < n && m != n)
+			for (c = 2 ; c < 10 ; c++)
 			{
-				putchar(m + '0');
-				putchar(n + '0');
-				if (m + n != 17)
+				if (a < b && b < c)
 				{
+				putchar(a + '0');
+				putchar(b + '0');
+				putchar(c + '0');
+				if (a + b + c != 24)
+					{
 					putchar(',');
-					putchar(',');
+					putchar(' ');
+					}
 				}
 			}
 		}
 	}
-	putchar('\n');
-	return (0);
+		putchar('\n');
+		return (0);
 }
-
