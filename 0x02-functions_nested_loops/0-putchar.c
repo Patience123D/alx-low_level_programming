@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
+ * main - main function and entry point
  * _putchar - prints the statement _putchar by singles
- * main - main entry point
  * Return: 0 upon success
  */
 
