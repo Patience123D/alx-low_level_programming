@@ -16,5 +16,6 @@ void print_rev(char *s)
 		s--;
 	for (k = match; k > 0; k--)
 		_putchar(*s);
+	s--;
 	_putchar('\n');
 }
