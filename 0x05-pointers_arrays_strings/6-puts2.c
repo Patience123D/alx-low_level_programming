@@ -14,11 +14,17 @@ void puts2(char *str)
 	int n;
 
 	while (*y != '\0')
-		y++;
+	{
+	y++;
 	mark++;
+	}
 	m = mark - 1;
 	for (n = 0; n <= m; n++)
-			if (n % 2 == 0)
-			_putchar(str[n]);
-			_putchar('\n');
+	{
+	if (n % 2 == 0)
+	}
+	_putchar(str[n]);
+	{
+	}
+	_putchar('\n');
 }
