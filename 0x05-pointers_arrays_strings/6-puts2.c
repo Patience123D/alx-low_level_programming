@@ -17,7 +17,7 @@ void puts2(char *str)
 		y++;
 	mark++;
 	m = mark - 1;
-	for (n = 0; n <= m; n++
+	for (n = 0; n <= m; n++)
 			if (n % 2 == 0)
 			_putchar(str[n]);
 			_putchar('\n');
