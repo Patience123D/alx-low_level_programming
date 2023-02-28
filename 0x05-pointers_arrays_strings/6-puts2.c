@@ -20,9 +20,7 @@ void puts2(char *str)
 	}
 	m = mark - 1;
 	for (n = 0; n <= m; n++)
-	{
-		if (n % 2 == 0)
-	}
+	if (n % 2 == 0)
 		_putchar(str[n]);
 	{
 	}
