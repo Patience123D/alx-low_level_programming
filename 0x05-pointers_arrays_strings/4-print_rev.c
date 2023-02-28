@@ -12,7 +12,7 @@ void print_rev(char *s)
 
 	while (*s != '\0')
 		match++;
-	s++
+	s++;
 		s--;
 	for (k = match; k > 0; k--)
 		_putchar(*s);
