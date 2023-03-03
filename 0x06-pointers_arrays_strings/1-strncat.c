@@ -5,7 +5,7 @@
  *@dest: destination string
  *@src: source string
  *Return: 0
- *@n: parameter
+ *@n: parameter to be used for concatenation
  */
 
 char *_strncat(char *dest, char *src, int n)
