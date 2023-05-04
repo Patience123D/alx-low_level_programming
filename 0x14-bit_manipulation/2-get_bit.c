@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- *get_bit - function prototype that returns the value of a bit at a given index.
+ *get_bit - function prototype that returns the value of a bit
  *@n: parameter
  *@index: bit location
  *Return: bit value
